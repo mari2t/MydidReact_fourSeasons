@@ -19,14 +19,13 @@ export const Ordinary = ({
     return value
   }
   const handleOnClick = (e) => {
-    let spaceWord = "　　　";
     const did = ordinaryOfBox.find((value) => value.value === e.target.innerText)
     const didId = uuid()
-    if(settingTime === ""){did.value = spaceWord + did.value}
+    if(settingTime === ""){did.value = "　　　" + did.value}
     else{did.value = settingTime + did.value}
     if(inputValue !== ""){did.value = did.value + " - " + inputValue}
     ordinaryValue = [ ...ordinaryValue, {id:didId, value: did.value, completed:did.completed}]
-    e.target.style.backgroundColor = "#8cb5a4";
+    e.target.style.backgroundColor = "#d9d0ac";
     setOrdinaryValue(ordinaryValue)
     setInputValue("")
     setSettingTime("")

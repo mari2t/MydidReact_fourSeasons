@@ -24,7 +24,6 @@ export const Home = ({
     }
     const handleOnClick = (e) => {
         //クリックされた要素をhomeValueに追加する
-        let spaceWord = "";
         const did = homeOfBox.find((value) => value.value === e.target.innerText)
         const didId = uuid()
         if(settingTime === ""){did.value = "　　　" + did.value}
@@ -32,7 +31,7 @@ export const Home = ({
         if(inputValue !== ""){did.value = did.value + " - " + inputValue}
         homeValue = [ ...homeValue, {id:didId, value: did.value, completed:did.completed}]
         //クリックされた要素の色を変える
-        e.target.style.backgroundColor = "#B0E0E6";
+        e.target.style.backgroundColor = "#a6bdc0";
         //console.log(homeValue)
         setHomeValue(homeValue)
         setInputValue("")

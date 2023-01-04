@@ -1,7 +1,14 @@
-.wrapOfImg{
+
+.wrapOfImg {
     display:flex;
-    justify-content: space-evenly;
+    justify-content:center;
+    height: auto;
+    height: auto;
     margin-top: 80px;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .imGroup {
+    margin-left: 3%;
+    margin-right: 3%;
   }

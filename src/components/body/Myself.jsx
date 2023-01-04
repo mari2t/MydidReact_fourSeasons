@@ -20,15 +20,14 @@ export const Myself = ({
   }
   const handleOnClick = (e) => {
   //クリックされた要素をhomeValueに追加する
-  let spaceWord = "　　　";
   const did = myselfOfBox.find((value) => value.value === e.target.innerText)
   const didId = uuid()
-  if(settingTime === ""){did.value = spaceWord + did.value}
+  if(settingTime === ""){did.value = "　　　" + did.value}
   else{did.value = settingTime + did.value}
   if(inputValue !== ""){did.value = did.value + " - " + inputValue}
   myselfValue = [ ...myselfValue, {id:didId, value: did.value, completed:did.completed}]
   //クリックされた要素の色を変える
-  e.target.style.backgroundColor = "#ecd4e7";
+  e.target.style.backgroundColor = "#d8c8d4";
   //console.log(homeValue)
   setMyselfValue(myselfValue)
   setInputValue("")

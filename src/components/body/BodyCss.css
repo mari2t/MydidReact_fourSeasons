@@ -1,3 +1,4 @@
+
 .wrapOfList {
   display:flex;
   justify-content: space-evenly;
@@ -7,12 +8,11 @@
 }
 #houseText {
     text-align: center; 
-    
 }
 .houseGroup {
   margin: 0 auto;
   width: 280px;
-  height: 1200px;
+  height: 1500px;
   background-color:rgba(139, 145, 127, 0.4);
   border: solid 1px black;
   border-radius: 8px;
@@ -26,7 +26,7 @@
 .ordinaryGroup {
   margin: 0 auto;
   width:280px;
-  height: 1200px;
+  height: 1500px;
   background-color:rgba(139, 145, 127, 0.4);
   border: solid 1px black;
   border-radius: 8px;
@@ -38,7 +38,7 @@
 .myselfGroup {
   margin: 0 auto;
   width:280px;
-  height: 1200px;
+  height: 1500px;
   background-color:rgba(139, 145, 127, 0.4);
   border: solid 1px black;
   border-radius: 8px;
@@ -68,7 +68,7 @@
 .allDidGroup{
   margin: 0 auto;
   width: 280px;
-  height: 1200px;
+  height: 1500px;
   background-color:rgba(209, 211, 205, 0.4);
   border: solid 1px black;
   border-radius: 8px;
