@@ -6,16 +6,16 @@ export const Imgs = () => {
     <div>
         <div className="wrapOfImg">
             <div className="im1Group">
-                <img src="./img/img1.jpg" height="200" alt=''/>
+                <img src="./img/img3.jpg" height="200" width="240" alt=''/>
             </div>
             <div className="im2Group">
-                <img src="./img/img2.jpg" height="200" alt=''/>
+                <img src="./img/img4.jpg" height="200" width="240" alt=''/>
             </div>
             <div className="im3Group">
-                <img src="./img/img3.jpg" height="200" alt=''/>
+                <img src="./img/img2.jpg" height="200" width="240" alt=''/>
             </div>
             <div className="im4Group">
-                <img src="./img/img4.jpg" height="200" alt=''/>
+                <img src="./img/img1.jpg" height="200" width="240" alt=''/>
             </div>
         </div>
     </div>
