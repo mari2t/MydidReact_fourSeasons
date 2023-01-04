@@ -1,0 +1,7 @@
+.wrapOfImg{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
