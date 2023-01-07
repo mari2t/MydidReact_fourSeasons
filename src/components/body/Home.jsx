@@ -18,10 +18,11 @@ export const Home = ({
 
     const displayValue = (value) => {
         //id設定とValue表示をする
-        index = homeOfWord.indexOf( value ) 
+        index = homeOfWord.indexOf( value ) + 1 
         homeOfBox = [...homeOfBox,{id:index, value: value, completed:false }]  
         return value
     }
+    
     const handleOnClick = (e) => {
         //クリックされた要素をhomeValueに追加する
         const did = homeOfBox.find((value) => value.value === e.target.innerText)
@@ -39,6 +40,7 @@ export const Home = ({
         setDone(false)
     }
 
+    
   return (
     <div className="houseGroup">
       <h3 id="houseText">家事・育児</h3>

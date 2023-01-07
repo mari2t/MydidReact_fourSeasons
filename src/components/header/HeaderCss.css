@@ -20,29 +20,55 @@
     font-family: "Times" ;
     color: white;
   }
+  
   .dateOfToday {
     margin-left: 20px;
     color: white;
     text-align: center;
   }
 
-  #freeWordLabel {
+  .freeWordLabel {
     margin-left: 20px;
     color: white;
-    font-size: large;
     text-align: center;
   }
-  
+  #freeWord {
+    size: 200px
+  }
   #setTimeLabel {
     margin-left: 20px;
     color: white;
-    font-size: large;
     text-align: center;
   }
   
   #checkboxLabel {
     margin-left: 20px;
     color: white;
-    font-size: large;
     text-align: center;
+  }
+  @media screen and (max-width:640px) {
+    /*　画面サイズが640px以下の場合ここの記述が適用される　*/
+    .title {
+      margin-left: 10px;
+      text-shadow: 3px 3px 1px black;
+      text-align: center;
+      font-size: 24pt;
+      font-family: "Times" ;
+      color: white;
+    }
+    .dateOfToday {
+      font-size: small;
+    }
+    .freeWordLabel {
+      font-size: small;
+    }
+    #setTimeLabel {
+      font-size: small;
+    }
+    #checkboxLabel {
+      font-size: small;
+    }
+    #freeWord {
+      size: 40px
+    }
   }

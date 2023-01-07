@@ -14,7 +14,7 @@ export const Ordinary = ({
   let index = 0
 
   const displayValue = (value) => {
-    index = ordinaryOfWord.indexOf( value ) 
+    index = ordinaryOfWord.indexOf( value )  + 1 
     ordinaryOfBox = [...ordinaryOfBox,{id:index, value: value, completed:false }]  
     return value
   }

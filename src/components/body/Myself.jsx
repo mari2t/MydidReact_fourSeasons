@@ -14,7 +14,7 @@ export const Myself = ({
   let myselfOfBox = []
   let index = 0
   const displayValue = (value) => {
-    index = myselfOfWord.indexOf( value ) 
+    index = myselfOfWord.indexOf( value )  + 1 
     myselfOfBox = [...myselfOfBox,{id:index, value: value, completed:false }]  
     return value
   }

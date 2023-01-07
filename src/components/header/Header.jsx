@@ -18,22 +18,23 @@ export const Header = ({inputValue,setInputValue,settingTime,setSettingTime,done
 
   //フリーワード取得の値が入っている時の関数
   const handleChange = (e) => {
-    setDone(true)
     setInputValue(e.target.value)
-    console.log(inputValue)
   }
 
   //任意時刻の取得用関数
   const handleAnyClick = (e) => {
-    setDone(true)
     let nowTime = ""
-    console.log(e.target.value)
     nowTime = e.target.value
     setSettingTime(nowTime)
   }
 
   //現在時刻の取得用関数
   const handleNowClick =  (e) => {
+    if(e.target.checked === false){ 
+      setDone(false)
+      setSettingTime("")
+      return
+      }
     setDone(true)
     let nowTime = ""
     const today = new Date()
@@ -54,8 +55,8 @@ export const Header = ({inputValue,setInputValue,settingTime,setSettingTime,done
     <div className='headerGroup'>
       <h1 className='title' >MyDid</h1>
       <h2 className='dateOfToday' > {getDate()}</h2>
-      <label id="freeWordLabel">できたことの後に追記
-        <input id="freeWord" autoFocus type="text" onChange={handleChange} maxLength="60" size="40" value={inputValue}/>
+      <label className="freeWordLabel">できたことの後に追記
+        <input id="freeWord" autoFocus type="text" onChange={handleChange} maxLength="60"  value={inputValue}/>
       </label>
       <label id="setTimeLabel">任意時刻追記
         <input type="time" id="setTime" name="setTime" step="600" onChange={handleAnyClick} value={settingTime}/> 

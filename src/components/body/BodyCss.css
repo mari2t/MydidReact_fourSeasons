@@ -2,7 +2,7 @@
 .wrapOfList {
   display:flex;
   justify-content: space-evenly;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -86,5 +86,25 @@
   text-align: start; 
   margin : 5%;
 }
+@media screen and (max-width:640px) {
+  /*　画面サイズが640px以下の場合ここの記述が適用される　*/
 
+  .wrapOfList {
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+  .houseGroup {
+    font-size: small;
+  }
+  .ordinaryGroup {
+    font-size: small;
+  }
+  .myselfGroup {
+    font-size: small;
+  }
+  .allDidGroup{
+    font-size: small;
+  }
+}
   
