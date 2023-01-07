@@ -1,9 +1,4 @@
-@media (max-width: 480px){#blog-title-inner,#title a{
-  height:80px!important;
-  width:auto;
-  }
-  #blog-title-inner {background-size: contain!important; }
-  }
+
 
 body {
   margin: 0;

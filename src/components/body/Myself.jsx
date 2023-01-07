@@ -36,7 +36,7 @@ export const Myself = ({
 }
   return (
     <div className="myselfGroup">
-      <h3 id="myselfText">自分のやること</h3>
+      <h3 id="myselfText">自分</h3>
       <div>
       {myselfOfWord.map((value) => (
             <ul className="ulTodo" key={index} id={index} onClick={handleOnClick} >{displayValue(value)}</ul>

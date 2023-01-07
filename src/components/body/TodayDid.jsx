@@ -8,7 +8,7 @@ export const TodayDid = (
 
   return (
     <div className="allDidGroup">
-      <h3 id="allDidList">今日できたこと</h3>
+      <h3 id="allDidList">できたこと</h3>
       <div id="todayHouseText"> ―家事・育児― </div>
       {homeValue.map((
         (value) => <DisplayTodayDid key={value.id} value={value} deleteDid={deleteDid}/>
