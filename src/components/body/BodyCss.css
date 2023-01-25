@@ -1,19 +1,18 @@
-
 .wrapOfList {
-  display:flex;
+  display: flex;
   justify-content: space-evenly;
   margin-top: 20px;
   margin-left: 5%;
   margin-right: 5%;
 }
 #houseText {
-    text-align: center; 
+  text-align: center;
 }
 .houseGroup {
   margin: 0 auto;
   width: 280px;
   height: 1500px;
-  background-color:rgba(139, 145, 127, 0.4);
+  background-color: rgba(139, 145, 127, 0.4);
   border: solid 1px black;
   border-radius: 8px;
   font-size: large;
@@ -21,76 +20,74 @@
 }
 
 #ordinaryText {
-  text-align: center; 
+  text-align: center;
 }
 .ordinaryGroup {
   margin: 0 auto;
-  width:280px;
+  width: 280px;
   height: 1500px;
-  background-color:rgba(139, 145, 127, 0.4);
+  background-color: rgba(139, 145, 127, 0.4);
   border: solid 1px black;
   border-radius: 8px;
   font-size: large;
 }
 #myselfText {
-  text-align: center; 
+  text-align: center;
 }
 .myselfGroup {
   margin: 0 auto;
-  width:280px;
+  width: 280px;
   height: 1500px;
-  background-color:rgba(139, 145, 127, 0.4);
+  background-color: rgba(139, 145, 127, 0.4);
   border: solid 1px black;
   border-radius: 8px;
   font-size: large;
 }
 
-#allDidList{
-  text-align: center; 
+#allDidList {
+  text-align: center;
 }
-#todayHouseText{
-  text-align: center; 
-  margin: 5%; 
-
+#todayHouseText {
+  text-align: center;
+  margin: 5%;
 }
 
-#todayOrdinaryText{
-  text-align: center; 
-  margin: 5%; 
-
+#todayOrdinaryText {
+  text-align: center;
+  margin: 5%;
 }
-#todayMyselfText{
-  text-align: center; 
+#todayMyselfText {
+  text-align: center;
   margin-right: 5%;
   margin-left: 5%;
 }
 
-.allDidGroup{
+.allDidGroup {
   margin: 0 auto;
   width: 280px;
   height: 1500px;
-  background-color:rgba(209, 211, 205, 0.4);
+  background-color: rgba(209, 211, 205, 0.4);
   border: solid 1px black;
   border-radius: 8px;
   font-size: large;
 }
 .ulTodo {
-  border : solid 1px black;
-  border-radius :  10px;
-  background-color :  #F5F5F5;
-  margin : 5px;
-  box-shadow : 1px 1px 2px black;
-  cursor: pointer
+  border: solid 1px black;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  margin: 5px;
+  box-shadow: 1px 1px 2px black;
+  cursor: pointer;
 }
 .didText {
-  text-align: start; 
-  margin : 5%;
+  text-align: start;
+  margin: 5%;
 }
-@media screen and (max-width:640px) {
+@media screen and (max-width: 640px) {
   /*　画面サイズが640px以下の場合ここの記述が適用される　*/
 
   .wrapOfList {
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
     margin-top: 10px;
   }
@@ -103,8 +100,7 @@
   .myselfGroup {
     font-size: small;
   }
-  .allDidGroup{
+  .allDidGroup {
     font-size: small;
   }
 }
-  
