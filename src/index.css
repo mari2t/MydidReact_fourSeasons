@@ -1,19 +1,16 @@
-
-
 body {
   margin: 0;
   background-image: url(../public/img/hydrangea.jpg);
   background-size: cover;
   background-position: center;
-  background-color:rgba(250,250,250,0.9);
-  background-blend-mode:lighten;
-  font-family: "メイリオ" ;
+  background-color: rgba(246, 237, 235, 0.95);
+  background-blend-mode: lighten;
+  font-family: "メイリオ";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
