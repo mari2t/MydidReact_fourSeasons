@@ -3,7 +3,7 @@ body {
   background-image: url(../public/img/hydrangea.jpg);
   background-size: cover;
   background-position: center;
-  background-color: rgba(246, 237, 235, 0.95);
+  background-color: rgba(238, 246, 235, 0.95);
   background-blend-mode: lighten;
   font-family: "メイリオ";
   -webkit-font-smoothing: antialiased;
