@@ -8,11 +8,11 @@
   margin-right: 5%;
 }
 .imGroup {
-  margin-left: 3%;
-  margin-right: 3%;
+  width: 160px; /* 画像の幅に合わせて調節してください */
+  margin: auto;
 }
 .imClass {
   max-width: 100%;
   max-height: max-content;
-  border-radius: 6px;
+  border-radius: 30px;
 }
