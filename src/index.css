@@ -3,7 +3,7 @@ body {
 
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient(to top, #fa9257 0%, #f5dfa6 100%);
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
   background-blend-mode: soft-light, screen;
   background-blend-mode: lighten;
   font-family: "メイリオ";

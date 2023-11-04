@@ -3,7 +3,13 @@
   height: 80px;
   display: flex;
   align-items: center;
-  background-color: #886713;
+  /*   background-color: #686c75; */
+  background-image: linear-gradient(
+    to top,
+    #1e3c72 0%,
+    #1e3c72 1%,
+    #2a5298 100%
+  );
   position: fixed; /* ヘッダーを固定する */
   top: 0; /* 上部から配置の基準位置を決める */
   left: 0; /* 左から配置の基準位置を決める */
@@ -17,34 +23,20 @@
   text-align: center;
   font-size: 38pt;
   font-family: "Times";
-  color: #fdeae1;
+  color: #eaeef5;
 }
 
-.dateOfToday {
+.setTextAndTime {
   margin-left: 20px;
-  color: #fdeae1;
+  color: #eaeef5;
   text-align: center;
 }
 
-.freeWordLabel {
-  margin-left: 20px;
-  color: #fdeae1;
-  text-align: center;
-}
 #freeWord {
+  margin-left: 20px;
   size: 200px;
 }
-#setTimeLabel {
-  margin-left: 20px;
-  color: #fdeae1;
-  text-align: center;
-}
 
-#checkboxLabel {
-  margin-left: 20px;
-  color: #fdeae1;
-  text-align: center;
-}
 @media screen and (max-width: 640px) {
   /*　画面サイズが640px以下の場合ここの記述が適用される　*/
   .title {
