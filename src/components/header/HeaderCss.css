@@ -3,13 +3,7 @@
   height: 80px;
   display: flex;
   align-items: center;
-  /*   background-color: #686c75; */
-  background-image: linear-gradient(
-    to top,
-    #1e3c72 0%,
-    #1e3c72 1%,
-    #2a5298 100%
-  );
+  background-image: linear-gradient(15deg, #0b2606 0%, #549949 100%);
   position: fixed; /* ヘッダーを固定する */
   top: 0; /* 上部から配置の基準位置を決める */
   left: 0; /* 左から配置の基準位置を決める */

@@ -1,7 +1,6 @@
 .wrapOfList {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 20px;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -12,7 +11,7 @@
   margin: 0 auto;
   width: 280px;
   height: 1500px;
-  background-color: rgba(180, 187, 199, 0.4);
+  background-color: rgba(243, 244, 247, 0.7);
   border: solid 1px black;
   border-radius: 8px;
   font-size: large;
@@ -26,7 +25,7 @@
   margin: 0 auto;
   width: 280px;
   height: 1500px;
-  background-color: rgba(180, 187, 199, 0.4);
+  background-color: rgba(243, 244, 247, 0.7);
   border: solid 1px black;
   border-radius: 8px;
   font-size: large;
@@ -38,7 +37,7 @@
   margin: 0 auto;
   width: 280px;
   height: 1500px;
-  background-color: rgba(180, 187, 199, 0.4);
+  background-color: rgba(243, 244, 247, 0.7);
   border: solid 1px black;
   border-radius: 8px;
   font-size: large;
@@ -66,7 +65,7 @@
   margin: 0 auto;
   width: 280px;
   height: 1500px;
-  background-color: rgba(180, 187, 199, 0.4);
+  background-color: rgba(243, 244, 247, 0.7);
   border: solid 1px black;
   border-radius: 8px;
   font-size: large;

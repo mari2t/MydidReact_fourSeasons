@@ -15,4 +15,6 @@
   max-width: 100%;
   max-height: max-content;
   border-radius: 30px;
+  border: solid;
+  border-color: #464000;
 }
