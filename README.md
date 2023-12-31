@@ -16,7 +16,8 @@ It is an application to check what has been done.
 
 ## Creation Date
 
-2023/1/3
+2023/1/3  
+[📖 更新履歴](./UPDATES.md)
 
 ## Purpose of creation
 

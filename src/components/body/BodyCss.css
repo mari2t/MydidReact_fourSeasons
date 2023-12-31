@@ -83,23 +83,37 @@
   margin: 5%;
 }
 @media screen and (max-width: 640px) {
-  /*　画面サイズが640px以下の場合ここの記述が適用される　*/
-
   .wrapOfList {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
   }
-  .houseGroup {
-    font-size: small;
-  }
-  .ordinaryGroup {
-    font-size: small;
-  }
-  .myselfGroup {
-    font-size: small;
-  }
+
+  .houseGroup,
+  .ordinaryGroup,
+  .myselfGroup,
   .allDidGroup {
+    width: 80%; /* 幅を画面幅に合わせて調整 */
+    height: auto; /* 高さを内容に合わせて自動調整 */
+    margin: 10px 0; /* 上下の余白を設定 */
+    font-size: medium;
+  }
+
+  .ulTodo {
+    margin: 10px 10px; /* 上下の余白を設定 */
+    width: 80%; /* ulTodoも幅を親要素に合わせる */
     font-size: small;
+  }
+
+  .didText,
+  #houseText,
+  #ordinaryText,
+  #myselfText,
+  #allDidList,
+  #todayHouseText,
+  #todayOrdinaryText,
+  #todayMyselfText {
+    text-align: left; /* テキストを左揃えに変更 */
+    margin: 5% 10px; /* 余白を調整 */
   }
 }
